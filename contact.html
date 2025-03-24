@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <div id="menu-btn" class="fa fa-bars" aria-hidden="true"></div>
+            <a href="index.html" class="logo"><i class="fa fa-suitcase" aria-hidden="true"></i>JobSeeker.</a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="job.html">All Jobs</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="login.html"> Account</a>
+            </nav>
+            <a href="#" class="btn" style="margin-top: 0;">Post Jobs</a>
+        </section>
+    </header>
+
+
+<!--------------contact section starts----------------->
+
+<div class="section-title">Contact us</div>
+<section class="contact">
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <a href="tel:1234567890">123-456-7890</a>
+            <a href="tel:11112334455">1111-222-4455</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:infosys@gmail.com">infosys@gmail.com</a>
+            <a href="mailto:jackson@gmail.com">jackson@gmail.com</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="#">flat n0. 1, a-1 building, jogeshwari, mumbai, india-400410</a>
+        </div>
+    </div>
+    <form action="" method="post">
+        <h3>drop your message</h3>
+        <div class="flex">
+            <div class="box">
+                <p>name <span>*</span></p>
+                <input type="text" name="name" required maxlength="20" placeholder="enter your name" class="input">
+            </div>
+            <div class="box">
+                <p>email <span>*</span></p>
+                <input type="text" name="name" required maxlength="50" placeholder="enter your email" class="input">
+            </div>
+            <div class="box">
+                <p> number<span>*</span></p>
+                <input type="text" name="name" required min="0" max="9999999999" placeholder="enter your number" class="input">
+            </div>
+            <div class="box">
+                <p>role <span>*</span></p>
+                <select name="role" required class="input">
+                    <option value="employee">job seeker (employee)</option>
+                    <option value="employee">job provide ( employer)</option>
+                </select>
+            </div>
+        </div>
+        <p>message <span>*</span></p>
+        <textarea name="message" class="input" required maxlength="1000" placeholder="enter your message" 
+        cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" name="send" class="btn">
+    </form>
+</section>
+
+
+<!---------------contact section ends---------------------->
+
+
+<!----footer section starts--->
+<footer class="footer">
+    <section class="grid">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a>
+            <a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>about</a>
+            <a href="job.html"><i class="fa fa-angle-right" aria-hidden="true"></i>All jobs</a>
+            <a href="contact.html"><i class="fa fa-angle-right" aria-hidden="true"></i>contact us</a>
+            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>filter search</a>
+        </div>
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>account</a>
+            <a href="login.html"><i class="fa fa-angle-right" aria-hidden="true"></i>login</a>
+            <a href="register.html"><i class="fa fa-angle-right" aria-hidden="true"></i>register</a>
+            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>post Jobs</a>
+            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Dashboard</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>Twitter</a>
+            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>Instagram</a>
+            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i>linkedin</a>
+            <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i>Youtube</a>
+        </div>
+    </section>
+
+    <div class="credit">&copy; copyright @2024 by <span>mr. web designer</span> | all rights reserved!</div>
+</footer>
+
+
+
+    <script type="module" src="script.js"></script>
+    
+</body>
+</html>
