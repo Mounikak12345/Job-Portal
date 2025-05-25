@@ -152,6 +152,7 @@ section{
     background-position: center;
     background-attachment: fixed;
     background-blend-mode: color;
+    height: 87vh;
 }
 
 .home-container .home{
